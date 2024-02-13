@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css"  href="main.css" >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WEBSITE </title>
+
+</head>
+<script>
+    scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+</script>
+
+ <nav>
+     <h1> MAHESH BHARATI </h1>
+     <ul class="navigation">
+         <li><a href="#about" class="nav-link">ABOUT</a></li>
+         <li><a href="#Skills" class="nav-link">SKILLS</a></li>
+         <li><a href="projects" class="nav-link">PROJECTS</a></li>
+         <li><a href="#contact" class="nav-link">CONTACT</a></li>
+
+     </ul>
+     <button class="burger-menu" id="burger-menu">
+         <icon-icon class="bars" name="menu-outline"></icon-icon>
+     </button>
+ </nav>
+
+ <section class="hero" id="about">
+    <img src="img/hero.jpg" alt="jane-doe" loading="lazy"
+     class="img/hero-img"/>
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Hii!! I'm MAHESH BHARATI , 3rd Year B.E student studing in JSPM Collgee of 
+        Engineering ,Pune . I completed front end development and slowly moving toward the back end
+        .
+      </p>
+    </div>
+
+   
+</section>
+<section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+     My hometown is Latur. I completed diploma in IT branch from 
+     Government polytechnic ,Solapur.
+    </p>
+    <p>
+      Also love the reading books, SRIMAD BHAGAVAD GITA , ATOMIC HABITS and 
+      LIFE AMAZING SECRECTS by GAUR GOPAL DAS  these are the few books i read it .                    ,Reading develops our
+      brains and gives us the ability to understand life in a much better way.
+    </p>
+    
+  </section>
+
+
+  <section class="skills" id="Skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="img/css.png"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="img/html.jpg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img
+          src="img/c++.jpg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="img/java.jpg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xyylngw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Enter Your Email"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <div class="socials">
+
+    <a href="#" target="_blank"><img
+        src="img/instagram-gif.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    
+   </div>
+
+   <i class="scroll-up" id="scroll-up"><img
+        src="img/arrow-up.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+   
+  
+
+  
+
+     
+
+</body>
+
+</html>
